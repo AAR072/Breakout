@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://itvr6sa4sxro"]
+
+[ext_resource type="Script" path="res://Scripts/game.gd" id="1_lyuu3"]
+[ext_resource type="PackedScene" uid="uid://bu1xl4by7mlxf" path="res://Scenes/barrier.tscn" id="2_dhmpy"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_lyuu3")
+
+[node name="leftBarrier" parent="." instance=ExtResource("2_dhmpy")]
+position = Vector2(-8, 0)
+
+[node name="rightBarrier" parent="." instance=ExtResource("2_dhmpy")]
+position = Vector2(1160, 0)

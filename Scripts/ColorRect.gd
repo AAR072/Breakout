@@ -6,9 +6,9 @@ func _ready():
 	var rng;
 	var c: Color;
 	rng = RandomNumberGenerator.new()
-	c.r = rng.randf_range(0,1)
-	c.g = rng.randf_range(0,1)
-	c.b = rng.randf_range(0,1)
+	c.r = rng.randf_range(0.5,1)
+	c.g = rng.randf_range(0.5,1)
+	c.b = rng.randf_range(0.5,1)
 	set_color(c)
 
 
