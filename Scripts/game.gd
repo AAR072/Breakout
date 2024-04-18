@@ -27,7 +27,7 @@ func spawnObjects(scene, spacingX, breakHeight, lineHeight, lineWidth, originX, 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	spawnObjects(brickScene, 70, 30, 8, 16, 50, 35)
-	
+	$Ball.position = Vector2(560,500)
 	pass # Replace with function body.
 
 
